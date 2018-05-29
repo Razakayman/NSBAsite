@@ -22,8 +22,8 @@
 
       <div class="search-login-container">
         <div class="login">
-          <button class='button blue'>Join Now</button>
-          <button class='button green'>Login</button>
+          <button class='button blue' onClick="parent.location='./join.html'"> Join</button>
+          <button class='button green' onClick="parent.location='./login.html'">Login</button>
 
         </div>
         <div class="searchbar">
@@ -50,7 +50,23 @@
   </header>
 
   <main>
+      <div class="containers">
+          
+  <form action="action_page.php">
 
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
   </main>
 
   <footer>
