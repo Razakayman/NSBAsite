@@ -38,6 +38,7 @@
       <ul>
         <li><a href="./index.html">Home</a></li>
         <li class="active"><a href="./about.html">About</a></li>
+        <li><a href="./aboutus.html">About Us</a></li>
         <li><a href="./membership.html">Membership</a></li>
         <li><a href="./service.html">Service</a></li>
         <li><a href="./events.html">Events</a></li>
@@ -78,7 +79,29 @@
       </main>
 
 
-  </main>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
 
   <footer>
     Copyrights &copy;Nimbus

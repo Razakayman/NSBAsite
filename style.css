@@ -175,6 +175,11 @@ a.right.carousel-control{
     background-color: #BEE8EE;
 }
 
+.aboutus {
+    text-align: center;
+    font-size: 22px;
+}
+
 /* main{
   background-color: red;
   padding: 0;
@@ -402,22 +407,40 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
+img.zoomin {
+    width: 400px;
+    height: 325px;
+    display: inline-block;
+    margin-top: 0;
+    display: table;
+}
+
+td.zoom {
+    transition: transform .25;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.10);
+}
+
+.enlarge {
+    font-size: 
+}
+
+td.zoom>img {
+    margin-left: 40px;
+}
+
+.enlarge {
+    text-align: center;
+    font-size: 24px;
+}
 
 footer{
   background-color: #21597A;
 
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
